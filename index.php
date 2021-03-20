@@ -22,6 +22,11 @@
         text-align: center;
         color: white;
       }
+
+      /*Contact*/
+      .tulisan{
+        color:white;
+      }
       /*Faq*/
       .about{
         text-align: center;
@@ -182,20 +187,72 @@
             </div>
             </div>
     </section>
-    <section class="bg-dark" id="catalog">
-        <div class="container">
+
+<section class="bg-dark" id="catalog">
+    <div class="container">
             <div class="row">
             <div class="col-md-8 mx-auto text-center">
-            <h1>Hello World!</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <button type="button" class="btn btn-light btn-lg">This is Button</button>
+            <h1 class="font-monospace">CATALOG</h1>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./img/tas.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tas Terbaik</h5>
+        <p>Pilihan tas dengan brand ternama!</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./img/jaket1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Jaket Terbaru</h5>
+        <p>Jaket kekinian mengikuti trend yang ada</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/baju.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Baju Pilihan Terbaik</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         </div>
         </div>
     </section>
+
+<section class="bg-dark" id="contact">
+    <div class="container">
+            <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+            <br><br><br>
+            <h1 class="font-monospace">CONTACT US</h1>
+            <p class="tulisan font-monospace">Please Contact Us : 
+            E-mail : dimeos319@gmail.com <br>
+            Call : 0263 - 563478 <br>
+            Address : Jl. Hanjawar No.35, Puncak, Bogor, Indonesia.
+            </p> <br> <br>
+        </div>
+        </div>
+    </section>
+
     <section class="bg-light" id="faq">
       <div class="container">
-    <h1 class="about font-monospace">FAQ<hr></h1>
-    <div class="faq-right">
+        <h1 class="about font-monospace">FAQ<hr></h1>
+        <div class="faq-right">
 
         <ul class="faq-container ">
 
